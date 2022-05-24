@@ -1,6 +1,6 @@
 {
   "name": "lz-oss",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "The OSS for my Blog.",
   "main": "index.js",
   "scripts": {
