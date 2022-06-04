@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node index.js",
     "dev:serve": "http-server -p 8888 -a 0.0.0.0 -i true --gzip && exit 0"
   },
   "repository": {
@@ -26,5 +27,8 @@
   "homepage": "https://github.com/xiaozhu2007/lz-oss#readme",
   "devDependencies": {
     "http-server": "^14.1.0"
+  },
+  "dependencies": {
+    "cac": "^6.7.12"
   }
 }
