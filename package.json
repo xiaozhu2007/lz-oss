@@ -5,8 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "bin": "node index.js",
-    "dev:serve": "http-server -p 8888 -a 0.0.0.0 -i true --gzip && exit 0"
+    "bin": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -26,8 +25,26 @@
   },
   "homepage": "https://github.com/xiaozhu2007/lz-oss#readme",
   "devDependencies": {
-    "http-server": "^14.1.0",
-    "cac": "^6.7.12",
-    "ora": "^6.1.0"
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/github": "^8.0.4",
+    "@semantic-release/npm": "^9.0.1",
+    "core-js": "^3.21.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^7.0.4",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "inquirer": "^7.3.2",
+    "open": "^7.0.4"
+  },
+  "engines": {
+    "node": ">=16",
+    "npm": ">=6.0.0"
   }
 }
