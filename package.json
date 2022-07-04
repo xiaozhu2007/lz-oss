@@ -1,6 +1,6 @@
 {
   "name": "lz-oss",
-  "version": "1.0.0-alpha-3",
+  "version": "1.0.1",
   "description": "The OSS for my Blog.",
   "main": "index.js",
   "type": "module",
@@ -24,24 +24,12 @@
     "url": "https://github.com/xiaozhu2007/lz-oss/issues"
   },
   "homepage": "https://github.com/xiaozhu2007/lz-oss#readme",
-  "devDependencies": {
-    "@babel/cli": "^7.17.6",
-    "@babel/core": "^7.17.8",
-    "@babel/preset-env": "^7.16.11",
-    "@semantic-release/exec": "^6.0.3",
-    "@semantic-release/github": "^8.0.4",
-    "@semantic-release/npm": "^9.0.1",
-    "core-js": "^3.21.1",
-    "cz-conventional-changelog": "^3.3.0",
-    "husky": "^7.0.4",
-    "rimraf": "^3.0.2"
-  },
   "dependencies": {
-    "boxen": "^4.2.0",
-    "chalk": "^4.1.0",
+    "boxen": "^7.0.0",
+    "chalk": "^5.0.1",
     "clear": "^0.1.0",
-    "inquirer": "^7.3.2",
-    "open": "^7.0.4"
+    "inquirer": "^9.0.0",
+    "open": "^8.4.0"
   },
   "engines": {
     "node": ">=16",

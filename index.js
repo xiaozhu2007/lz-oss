@@ -2,15 +2,15 @@
 
 "use strict";
 
-const boxen = require("boxen");
-const chalk = require("chalk");
-const inquirer = require("inquirer");
-const clear = require("clear");
-const open = require("open");
+import boxen from "boxen";
+import chalk from 'chalk';
+import { createPromptModule } from "inquirer";
+import clear from "clear";
+import open from "open";
 
 clear();
 
-const prompt = inquirer.createPromptModule();
+const prompt = createPromptModule();
 
 const questions = [
   {
@@ -43,25 +43,20 @@ const questions = [
 ];
 
 const data = {
-  name: chalk.bold.green("        甜力怕"),
+  name: chalk.bold.green("           甜力怕"),
   handle: chalk.white("@xiaozhu2007"),
-  work: `${chalk.white("Senior Front-end Developer at")} ${chalk
-    .hex("#341f7c")
-    .bold("SecurityScorecard")}`,
-  blog: chalk.gray("https://medium.com/") + chalk.whiteBright("@xiaozhu2007"),
-  twitter: chalk.gray("https://twitter.com/") + chalk.cyan("xiaozhu2007"),
+  work: `${chalk.white("Front-end Developer at")} ${chalk.hex("#341f7c")
+    .bold("")}`,
+  blog: chalk.gray("https://cnblogs.com/") + chalk.whiteBright("xiaozhu2020"),
   npm: chalk.gray("https://npmjs.com/") + chalk.red("~xiaozhu2007"),
   github: chalk.gray("https://github.com/") + chalk.green("xiaozhu2007"),
-  linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("xiaozhu2007"),
   web: chalk.cyan("https://xiaozhu2007.github.io/"),
   npx: chalk.red("npx") + " " + chalk.white("xiaozhu2007"),
 
   labelWork: chalk.white.bold("       Work:"),
-  labelBlog: chalk.white.bold("     Medium:"),
-  labelTwitter: chalk.white.bold("    Twitter:"),
+  labelBlog: chalk.white.bold("       Blog:"),
   labelnpm: chalk.white.bold("        npm:"),
   labelGitHub: chalk.white.bold("     GitHub:"),
-  labelLinkedIn: chalk.white.bold("   LinkedIn:"),
   labelWeb: chalk.white.bold("        Web:"),
   labelCard: chalk.white.bold("       Card:")
 };
@@ -72,18 +67,13 @@ const me = boxen(
     ``,
     `${data.labelWork}  ${data.work}`,
     `${data.labelBlog}  ${data.blog}`,
-    `${data.labelTwitter}  ${data.twitter}`,
     `${data.labelnpm}  ${data.npm}`,
     `${data.labelGitHub}  ${data.github}`,
-    `${data.labelLinkedIn}  ${data.linkedin}`,
     `${data.labelWeb}  ${data.web}`,
     ``,
     `${data.labelCard}  ${data.npx}`,
     ``,
-    `${chalk.italic(
-      "I'm curious, enthusiastic and student most of the time."
-    )}`,
-    `${chalk.italic("The rest of the time I write code that others can read.")}`
+    `${chalk.italic("I write code that nobody can read.")}`
   ].join("\n"),
   {
     margin: 1,
@@ -96,9 +86,9 @@ const me = boxen(
 
 console.log(me);
 const tip = [
-  `Tip: Try ${chalk.cyanBright.bold(
-    "cmd/ctrl + click"
-  )} on the links above`,
+  `ProTip: Try ${chalk.cyanBright.bold(
+    "Cmd / Ctrl + Click"
+  )} on the links above!`,
   '',
 ].join("\n");
 console.log(tip);
