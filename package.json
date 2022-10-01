@@ -1,6 +1,6 @@
 {
   "name": "lz-oss",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The OSS for my Blog.",
   "main": "index.js",
   "type": "module",
@@ -15,9 +15,9 @@
     "oss"
   ],
   "author": {
-    "name": "xiaozhu2007",
+    "name": "HackPig520",
     "email": "lz19986912007@163.com",
-    "url": "https://xiaozhu2007.github.io/"
+    "url": "https://xiaozhu2007.netlify.app/"
   },
   "license": "WTFPL",
   "bugs": {
@@ -30,6 +30,9 @@
     "clear": "^0.1.0",
     "inquirer": "^9.0.0",
     "open": "^8.4.0"
+  },
+  "bin": {
+    "lz-oss": "index.js"
   },
   "engines": {
     "node": ">=16",
