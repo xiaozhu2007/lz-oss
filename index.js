@@ -45,8 +45,8 @@ const questions = [
 const data = {
   name: chalk.bold.green("           甜力怕"),
   handle: chalk.white("@xiaozhu2007"),
-  work: `${chalk.white("Front-end Developer at")} ${chalk.hex("#341f7c")
-    .bold("")}`,
+  work: `${chalk.white("Developer at")} ${chalk.hex("#341f7c")
+    .bold("HelloTools")}`,
   blog: chalk.gray("https://cnblogs.com/") + chalk.whiteBright("xiaozhu2020"),
   npm: chalk.gray("https://npmjs.com/") + chalk.red("~xiaozhu2007"),
   github: chalk.gray("https://github.com/") + chalk.green("xiaozhu2007"),
