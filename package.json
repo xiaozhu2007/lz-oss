@@ -1,7 +1,7 @@
 {
   "name": "lz-oss",
-  "version": "1.0.5",
-  "description": "The OSS for my Blog.",
+  "version": "1.0.6",
+  "description": "The OSS for my personal services",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -21,8 +21,7 @@
   },
   "contributors": [
     "HackPig520 <hackpig520@gmail.com>",
-    "Liu Zhen <2286628307@qq.com>",
-    "Pig2333 <pig2333minecraft@yeah.net>"
+    "ShellC0de <shellcode@outlook.sg>"
   ],
   "license": "WTFPL",
   "bugs": {
@@ -35,9 +34,6 @@
     "clear": "^0.1.0",
     "inquirer": "^9.0.0",
     "open": "^8.4.0"
-  },
-  "bin": {
-    "lz-oss": "index.js"
   },
   "engines": {
     "node": ">=16",
