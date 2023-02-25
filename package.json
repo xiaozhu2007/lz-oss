@@ -1,7 +1,7 @@
 {
   "name": "lz-oss",
-  "version": "1.0.6",
-  "description": "The OSS for my personal services",
+  "version": "1.0.7",
+  "description": "The OSS for my services",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -12,7 +12,10 @@
     "url": "git+https://github.com/xiaozhu2007/lz-oss.git"
   },
   "keywords": [
-    "oss"
+    "oss",
+    "xiaozhu2007",
+    "blog",
+    "files"
   ],
   "author": {
     "name": "xiaozhu2007",
